@@ -1,0 +1,487 @@
+@media(max-width: 1199px) {}
+
+@media(max-width: 991px) {
+    .first-section {
+        background-size: 843px;
+    }
+
+    .main-article {
+        background-size: cover;
+    }
+
+    .phone-img {
+        text-align: center;
+    }
+
+    .first-text {
+        text-align: center;
+        padding-left: 10px;
+        margin: 0 auto;
+        width: 68%;
+    }
+
+    .texts {
+        width: 520px;
+    }
+
+    .design img {
+        width: 689px;
+        height: 200px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 15px;
+    }
+
+    .laptoop::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 42px;
+        border-radius: 10px;
+        height: 200px;
+        background-color: rgba(255, 173, 155, 0.8);
+        display: none;
+    }
+
+    .right-side::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 42px;
+        height: 200px;
+        border-radius: 10px;
+        background-color: rgba(255, 173, 155, 0.8);
+        display: none;
+    }
+
+    .design-text {
+        width: 90%;
+    }
+
+    .row-responsive {
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .characters-text {
+        text-align: left;
+        padding-left: 48px;
+    }
+
+    .characters-page {
+        width: 440px;
+    }
+
+    .about-project {
+        background-size: cover;
+        height: 350px;
+    }
+
+    .talk {
+        text-align: center;
+        padding: 70px 140px;
+    }
+
+    .project-page {
+        width: 430px;
+    }
+
+    .project-page .row {
+        justify-content: center;
+    }
+
+    .project-theme {
+        width: 100%;
+    }
+
+    .col-lg-3 .link {
+        margin: 0 auto;
+    }
+
+    .first-section::after {
+        display: none;
+    }
+
+    /* page2 */
+
+
+
+    .workers img {
+        width: 100%;
+        height: 320px;
+        object-fit: cover;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+    }
+
+    .about-text {
+        text-align: center;
+    }
+
+    .talent-text {
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    .about-page {
+        width: 570px;
+    }
+
+    .talent .talent-text {
+        padding-left: 77px;
+    }
+
+    .girl img {
+        width: 100%;
+        height: 320px;
+        object-fit: cover;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+    }
+
+    .picture img {
+        width: 100%;
+        height: 320px;
+        object-fit: cover;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+    }
+
+    .picture {
+        margin-left: 0px;
+    }
+
+    .bg-color2 {
+        background-position-x: 5px;
+    }
+
+    .canada {
+        margin-bottom: 80px;
+    }
+
+    .australia {
+        margin-bottom: 80px;
+    }
+
+
+
+    /* page3 */
+
+    .main-header .main-nav {
+        margin-left: 18px;
+    }
+
+    .mapimg img {
+        width: 100%;
+        height: 326px;
+        object-fit: cover;
+        border-radius: 15px;
+        margin-bottom: 24px;
+    }
+
+    .get {
+        text-align: center;
+    }
+
+    /* page4 */
+    .contact-us {
+        background-size: cover;
+    }
+
+    .main-form {
+        padding-left: 100px;
+    }
+
+    .but {
+        margin-top: 50px;
+    }
+
+    .info {
+        width: 445px;
+    }
+
+
+}
+
+@media(max-width: 767px) {
+
+
+
+
+
+    .texts {
+        width: 545px;
+    }
+
+    .design img {
+        width: 100%;
+    }
+
+    .row-responsive {
+        flex-wrap: wrap;
+    }
+
+    .characters img {
+        margin: 0 auto;
+    }
+
+    .talk {
+        padding: 50px 41px;
+    }
+
+    .characters-text {
+        text-align: center;
+    }
+
+    .get {
+        text-align: center;
+    }
+
+    .main-nav a {
+        display: block;
+    }
+
+
+    .main-footer .main-nav-link {
+        margin-bottom: 15px;
+    }
+
+    .end {
+        margin-bottom: 10px;
+    }
+
+    .main-footer .end {
+        padding-top: 20px;
+    }
+
+    .sayts {
+        text-align: center;
+    }
+
+    .address {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .main-footer {
+        text-align: center;
+    }
+
+
+
+
+
+
+
+    @media(max-width: 565px) {
+
+    
+        /* page1 tel */
+
+        .burger {
+            display: block;
+            background-color: transparent;
+            border: none;
+            margin-left: 170px;
+        }
+
+        .main-header.on:after {
+            content: '';
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 300px;
+            height: 925px;
+            background: black;
+            opacity: 0.5;
+            z-index: 99;
+        }
+
+        .main-header .main-nav a {
+            color: white;
+            font-size: 1.71rem;
+            margin-bottom: 32px;
+            padding-left: 24px;
+        }
+
+        .main-header .main-nav {
+            display: none;
+            position: absolute;
+            top: 20px;
+            left: -20px;
+            right: 0;
+            margin-top: 104px;
+            width: 100%;
+            height: 235px;
+            padding: 15px;
+            background-color: black;
+            z-index: 999;
+        }
+
+        .main-header .menu-toggle.open {
+            display: block;
+            z-index: 999;
+            background-color: transparent;
+            border: none;
+
+        }
+
+        .main-header .menu-toggle.close {
+            display: none;
+            z-index: 999;
+            background-color: transparent;
+            border: none;
+
+
+        }
+
+        .main-header.on .menu-toggle.open {
+            display: none;
+        }
+
+        .main-header.on .menu-toggle.close {
+            display: block;
+        }
+
+        .main-footer .main-nav {
+            margin-top: 50px;
+        }
+
+        .main-footer .row {
+            flex-direction: column;
+        }
+
+
+        /* page2 tel */
+
+        .about-us {
+            margin-bottom: 0;
+            border-radius: 0;
+            background-position: center;
+        }
+
+        .talent {
+            border-radius: 0;
+            background-position: center;
+        }
+
+        .deal {
+            border-radius: 0;
+            background-position: center;
+        }
+
+        .workers img {
+            border-radius: 0;
+        }
+
+        .girl img {
+            border-radius: 0;
+        }
+
+        .picture img {
+            border-radius: 0;
+        }
+
+        .talent-text {
+            width: 100%;
+        }
+
+        .talent-theme {
+            width: 300px;
+        }
+
+        .about-page {
+            width: 288px;
+        }
+
+        .about-theme {
+            width: 290px;
+        }
+
+        .about-text {
+            margin-left: 81px;
+        }
+
+        .first-text {
+            width: 100%;
+        }
+
+        .texts {
+            width: 418px;
+        }
+
+        .first-theme {
+            width: 430px;
+        }
+
+        .characters-page {
+            width: 385px;
+        }
+
+        .project-page {
+            width: 390px;
+        }
+
+        .phone-img {
+            text-align: center;
+            margin: 0 auto;
+        }
+
+        .learn {
+            margin-bottom: 80px;
+        }
+
+
+        /* page3 */
+
+        .row2 {
+            flex-wrap: wrap;
+        }
+
+        .mapimg img {
+            border-radius: 0;
+        }
+
+
+        .karta {
+            background-position: center;
+            margin-top: -87px
+        }
+
+        .office {
+            text-align: center;
+            margin: 0 auto;
+            margin-bottom: 24px;
+        }
+
+        .contact {
+            text-align: center;
+            margin: 0 auto;
+        }
+
+        /* page4 */
+
+        .main-form {
+            padding-left: 60px;
+        }
+
+        .info {
+            width: 334px;
+        }
+
+        .but {
+            text-align: center;
+            margin: 30px auto;
+        }
+
+        .contact-us .about-text {
+            margin-left: 70px;
+            padding-top: 50px;
+        }
+
+    }
+
+    @media(max-width: 480px) {}
