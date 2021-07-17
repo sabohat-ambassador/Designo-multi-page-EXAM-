@@ -492,15 +492,15 @@
             border-radius: 0;
         }
         .burger {
-            margin-left: 100px;
+            margin-left: 130px;
         }
 
         .first-theme {
-            width: 325px;
+            width: 375px;
             font-size: 2.28rem;
         }
         .texts{
-            width: 325px;
+            width: 375px;
         }
         .design-text{
             width: 100%;
@@ -542,7 +542,7 @@
            padding-left: 0;
         }
         .characters-page{
-            width: 370px;
+            width: 375px;
         }
 
         .project-theme{
