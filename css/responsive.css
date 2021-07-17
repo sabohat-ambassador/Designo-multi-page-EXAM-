@@ -171,7 +171,7 @@
     /* page3 */
 
     .main-header .main-nav {
-        margin-left: 18px;
+        margin-left: 171px;
     }
 
     .mapimg img {
@@ -207,11 +207,6 @@
 }
 
 @media(max-width: 767px) {
-
-
-
-
-
     .texts {
         width: 545px;
     }
@@ -278,7 +273,7 @@
 
     @media(max-width: 565px) {
 
-    
+
         /* page1 tel */
 
         .burger {
@@ -483,13 +478,15 @@
 
     }
 
-    @media(max-width: 480px){
+    @media(max-width: 480px) {
+
         /* page1 */
 
-        .main-article{
+        .main-article {
             background-position: center;
             border-radius: 0;
         }
+
         .burger {
             margin-left: 80px;
         }
@@ -498,18 +495,23 @@
             width: 325px;
             font-size: 2.28rem;
         }
-        .texts{
+
+        .texts {
             width: 325px;
         }
-        .design-text{
+
+        .design-text {
             width: 100%;
         }
-        .design-name{
+
+        .design-name {
             font-size: 2.50rem;
         }
-        .design img{
+
+        .design img {
             height: 250px;
         }
+
         .laptoop::before {
             content: '';
             position: absolute;
@@ -521,7 +523,7 @@
             background-color: rgba(255, 173, 155, 0.8);
             display: none;
         }
-        
+
 
         .right-side::before {
             content: '';
@@ -535,25 +537,29 @@
             background-color: rgba(255, 173, 155, 0.8);
             display: none;
         }
-       
+
         .characters-text {
             width: 100%;
-           padding-left: 0;
+            padding-left: 0;
         }
-        .characters-page{
+
+        .characters-page {
             width: 325px;
         }
 
-        .project-theme{
+        .project-theme {
             font-size: 2.50rem;
         }
+
         .project-page {
             width: 270px;
         }
 
+
         /* page2 */
 
-        .about-text{
+
+        .about-text {
             margin-bottom: 80px;
         }
 
@@ -561,16 +567,17 @@
             width: 220px;
             font-size: 2.50rem;
         }
-       
+
         .about-page {
             width: 200px;
         }
-        .talent .talent-theme{
+
+        .talent .talent-theme {
             width: 220px;
             font-size: 2.57rem;
         }
 
-        .deal .talent-theme{
+        .deal .talent-theme {
             width: 220px;
             font-size: 2.57rem;
         }
@@ -578,36 +585,39 @@
         .main-nav a {
             margin-right: 20px;
         }
+
         .deal .talent-text {
             padding-left: 70px;
         }
 
         /* page3 */
 
-        .karta{
+        .karta {
             padding: 95px 47px;
         }
 
 
         /* page4 */
 
-        .contact-us{
+        .contact-us {
             background-position: center;
             border-radius: 0;
         }
+
         form {
             margin-top: 40px;
             margin-right: 50px;
         }
+
         .main-form {
             padding-left: 19px;
         }
+
         .info {
             width: 314px;
         }
+
         .error {
             margin-left: 160px;
         }
     }
-    
-        
