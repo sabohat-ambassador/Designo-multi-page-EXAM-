@@ -484,8 +484,7 @@
 
     }
 
-    @media(max-width: 480px) {
-    
+    @media(max-width: 480px){
         /* page1 */
 
         .main-article{
@@ -493,15 +492,15 @@
             border-radius: 0;
         }
         .burger {
-            margin-left: 50px;
+            margin-left: 100px;
         }
 
-        .first-theme{
-            width: 290px;
+        .first-theme {
+            width: 325px;
             font-size: 2.28rem;
         }
         .texts{
-            width: 290px;
+            width: 325px;
         }
         .design-text{
             width: 100%;
@@ -543,7 +542,7 @@
            padding-left: 0;
         }
         .characters-page{
-            width: 300px;
+            width: 370px;
         }
 
         .project-theme{
@@ -552,4 +551,10 @@
         .project-page {
             width: 270px;
         }
+
+
+
     }
+    }
+    
+        
