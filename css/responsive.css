@@ -314,7 +314,6 @@
             left: -20px;
             right: 0;
             margin-top: 104px;
-            width: 100%;
             height: 235px;
             padding: 15px;
             background-color: black;
@@ -492,7 +491,7 @@
             border-radius: 0;
         }
         .burger {
-            margin-left: 130px;
+            margin-left: 110px;
         }
 
         .first-theme {
@@ -552,9 +551,56 @@
             width: 270px;
         }
 
+        /* page2 */
+
+        .about-text{
+            margin-bottom: 80px;
+        }
+
+        .about-theme {
+            width: 224px;
+            font-size: 2.50rem;
+        }
+        .about-page{
+            width: 240px;
+        }
+        .talent .talent-theme{
+            width: 224px;
+            font-size: 2.57rem;
+        }
+
+        .deal .talent-theme{
+            width: 224px;
+            font-size: 2.57rem;
+        }
+
+        .main-nav a {
+            margin-right: 20px;
+        }
+        .deal .talent-text {
+            padding-left: 70px;
+        }
+
+        /* page3 */
+
+        .karta{
+            padding: 95px 47px;
+        }
 
 
-    }
+        /* page4 */
+
+        .contact-us{
+            background-position: center;
+            border-radius: 0;
+        }
+        form {
+            margin-top: 40px;
+            margin-right: 50px;
+        }
+        .main-form {
+            padding-left: 33px;
+        }
     }
     
         
