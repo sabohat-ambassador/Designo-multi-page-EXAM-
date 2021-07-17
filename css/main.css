@@ -548,14 +548,14 @@ form {
     border-bottom: 3px solid white;
 }
 
-::placeholder {
+
+label{
     color: white;
     opacity: 0.5;
     font-size: 1.07rem;
     font-weight: 500;
 }
-
-input:hover::placeholder {
+label:hover {
     opacity: 1;
 }
 
