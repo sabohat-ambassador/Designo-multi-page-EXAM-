@@ -491,15 +491,15 @@
             border-radius: 0;
         }
         .burger {
-            margin-left: 110px;
+            margin-left: 80px;
         }
 
         .first-theme {
-            width: 375px;
+            width: 325px;
             font-size: 2.28rem;
         }
         .texts{
-            width: 375px;
+            width: 325px;
         }
         .design-text{
             width: 100%;
@@ -541,7 +541,7 @@
            padding-left: 0;
         }
         .characters-page{
-            width: 375px;
+            width: 325px;
         }
 
         .project-theme{
@@ -558,19 +558,20 @@
         }
 
         .about-theme {
-            width: 224px;
+            width: 220px;
             font-size: 2.50rem;
         }
-        .about-page{
-            width: 240px;
+       
+        .about-page {
+            width: 200px;
         }
         .talent .talent-theme{
-            width: 224px;
+            width: 220px;
             font-size: 2.57rem;
         }
 
         .deal .talent-theme{
-            width: 224px;
+            width: 220px;
             font-size: 2.57rem;
         }
 
@@ -599,7 +600,13 @@
             margin-right: 50px;
         }
         .main-form {
-            padding-left: 33px;
+            padding-left: 19px;
+        }
+        .info {
+            width: 314px;
+        }
+        .error {
+            margin-left: 160px;
         }
     }
     
